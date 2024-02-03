@@ -60,6 +60,12 @@ Se caso você receber um erro Parecido como este: env\Scripts\Activate.ps1 : O a
 execução de scripts foi desabilitada neste sistema...
 Acesse este LINK: <a href="https://cursos.alura.com.br/forum/topico-execucao-de-script-desativada-219081" target="_blank">Execução de Script desativada</a>
 
+Se caso voce esteja usando pronp de comando do windows normal então o comando para Ativar o virtual enve é :
+```bash
+venv\Scripts\activate.bat
+```
+Ocorrendo tudo certo então uma Pasta com o nome env é criada, e ativação é concluida da seguinte forma:
+![Baixando Python](/imagens/conferindo_ativacao.png)
 
 ## Comandos
 - pip install selenium
