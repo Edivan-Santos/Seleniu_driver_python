@@ -56,15 +56,10 @@ venv\Scripts\Activate.ps1
 ```
 ![Baixando Python](/imagens/ativando%20virtual%20env.png)
 
-- Se caso você receber um erro Parecido como este: env\Scripts\Activate.ps1 : O arquivo C:\Users\mb_la\OneDrive\Área de Trabalho\Curso_Udemy\venv\Scripts\Activate.ps1 não pode ser carregado porque a 
-execução de scripts foi desabilitada neste sistema. Para obter mais informações, consulte about_Execution_Policies em 
-https://go.microsoft.com/fwlink/?LinkID=135170.
-No linha:1 caractere:1
-+ venv\Scripts\Activate.ps1
-+ ~~~~~~~~~~~~~~~~~~~~~~~~~
-    + CategoryInfo          : ErrodeSegurança: (:) [], PSSecurityException
-    + FullyQualifiedErrorId : UnauthorizedAccessab
-##Comandos
+Se caso você receber um erro Parecido como este: env\Scripts\Activate.ps1 : O arquivo C:\Users\mb_la\OneDrive\Área de Trabalho\Curso_Udemy\venv\Scripts\Activate.ps1 não pode ser carregado porque a 
+execução de scripts foi desabilitada neste sistema...
+
+## Comandos
 - pip install selenium
 
 - pip show selenium
