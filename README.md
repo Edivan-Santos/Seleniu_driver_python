@@ -49,7 +49,11 @@ pip install selemium
 ```
 Porém por boas praticas o recomendado é que o selenium seja instalado apenas dentro dos projetos. Mais para isso devemos ativar o ambiente virtual(env). Para criar o ambiente virtual deve fazer o seguinte:
 Ao criar a pasta do Projeto, então abra o Terminal do VScode ou qualque outro e navegue até a pasta.
-![Baixando Python](/imagens/ativar%20virtual%20env.png)
+- Ativando o Virtual env
+```bash
+venv\Scripts\Activate.ps1
+````
+![Baixando Python](/imagens/ativando%20virtual%20env.png)
 
 ```bash
 python --version
