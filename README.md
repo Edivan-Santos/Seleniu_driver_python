@@ -23,10 +23,13 @@ Para Iniciar um projeto de automação de teste usando a ferramenta selenium_web
 
 ## Instalações
 
-Após fazer o Download do Python, então você deve ir no execultavel e apertar o  Botão direito do mause e clica na opção de Execular como administrador.
+-Fazendo o Download do Python.
 ![Baixando Python](/imagens/baixando-python.png)
 
+-Execultando Python como administrador
+ então você deve ir no execultavel e apertar o  Botão direito do mause e clica na opção de Execular como administrador.
 ![Baixando Python](/imagens/execultar_admin.png)
+
 - Ao execultar como Administrador é ensencial marcar essa opção "Add_Python to Path", ao selesionar ela o caminho do Path do python vai ser alocado automaticamente nas Variaveis de Anbiente. Da para fazer esse processo manualmente também.
 ![Baixando Python](/imagens/marcando_caixa_python.png)
 
