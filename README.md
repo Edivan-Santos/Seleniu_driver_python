@@ -67,8 +67,12 @@ venv\Scripts\activate.bat
 Ocorrendo tudo certo então uma Pasta com o nome env é criada, e ativação é concluida da seguinte forma:
 ![Baixando Python](/imagens/conferindo_ativacao.png)
 
-## Comandos
-- pip install selenium
-
+Agora devemos ativar de Fato o Selenium somente nesse projeto, e não instalando ele diretamente na máquina. O correto é em todo projeto você criar esse ambiente e instalar o selenium e seus pacotes necessário naquele projeto especifico.Então verifica se seu ambiente está ativado e se estiver instale o selenium.
+```bash
+pip install selenium
+```
+Para Verificar se o Selenium foi instalado com sucesso digite o seguinte comando:
+```bash
 - pip show selenium
+```
 
