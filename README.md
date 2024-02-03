@@ -43,9 +43,14 @@ Para Verificar se o Python foi realmente instalado então podemos inserir o segu
  python --version
 ```
 
+Se você preferir pode instalar o Selenium diretamnete em sua máquina Usando o seguinte comando:
 ```bash	
 pip install selemium
 ```
+Porém por boas praticas o recomendado é que o selenium seja instalado apenas dentro dos projetos. Mais para isso devemos ativar o ambiente virtual(env). Para criar o ambiente virtual deve fazer o seguinte:
+Ao criar a pasta do Projeto, então abra o Terminal do VScode ou qualque outro e navegue até a pasta.
+![Baixando Python](/imagens/ativar%20virtual%20env.png)
+
 ```bash
 python --version
 ```
