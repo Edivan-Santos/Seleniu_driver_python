@@ -17,9 +17,9 @@ Instalação da Linguagem de Programação PYTHON em sua Máquina
 
 
 Exemplo:
-```bash
-pip install nome_do_pacote
 
 Exemplo:
 ```bash
 pip install nome_do_pacote
+
+pip install selenium
