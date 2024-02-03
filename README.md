@@ -4,7 +4,7 @@ Mini Curso com Selenium_webdriver com Python
 ## Índice
 - [Pre-requesitos ](#Pre-requesitos)
 - [Instalaçoes](#instalações)
-- [Comando](#Comando)
+- [Comandos](#Comandos)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 
