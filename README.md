@@ -4,7 +4,7 @@ Mini Curso com Selenium_webdriver com Python
 ## Índice
 - [Pre-requesitos ](#Pre-requesitos)
 - [Instalaçoes](#instalações)
-- [Uso](#uso)
+- [Comando](#Comando)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
 
@@ -31,12 +31,16 @@ Para Iniciar um projeto de automação de teste usando a ferramenta selenium_web
 ![Baixando Python](/imagens/execultar_admin.png)
 
 - Ao execultar como Administrador é ensencial marcar essa opção "Add_Python to Path", ao selesionar ela o caminho do Path do python vai ser alocado automaticamente nas Variaveis de Anbiente. Da para fazer esse processo manualmente também.
-![Baixando Python](/imagens/marcando_caixa_python.png)
+![Baixando Python](/imagens/marcacao_atualizada.png)
+- Após Marcar essa Caixa e iniciar a intalação é só clicar em "NEXT" ou "contniuar"
 
 
+## Comandos
 
-## Contato
+Para Verificar se o Python foi realmente instalado então podemos inserir o seguinte comando:
 
 Exemplo:
 ```bash
-pip install nome_do_pacote
+python --version
+
+test
