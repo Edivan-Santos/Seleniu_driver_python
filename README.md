@@ -58,6 +58,8 @@ venv\Scripts\Activate.ps1
 
 Se caso você receber um erro Parecido como este: env\Scripts\Activate.ps1 : O arquivo C:\Users\mb_la\OneDrive\Área de Trabalho\Curso_Udemy\venv\Scripts\Activate.ps1 não pode ser carregado porque a 
 execução de scripts foi desabilitada neste sistema...
+Acesse este LINK: <a href="https://cursos.alura.com.br/forum/topico-execucao-de-script-desativada-219081" target="_blank">Execução de Script desativada</a>
+
 
 ## Comandos
 - pip install selenium
