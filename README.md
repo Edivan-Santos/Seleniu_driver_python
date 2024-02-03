@@ -42,7 +42,7 @@ Para Verificar se o Python foi realmente instalado então podemos inserir o segu
 ```bash
 python --version
 
-Comando2
-```bash	
 pip install selenium
+
+pip show selenium
 
