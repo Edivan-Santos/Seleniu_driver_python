@@ -49,16 +49,22 @@ pip install selemium
 ```
 Porém por boas praticas o recomendado é que o selenium seja instalado apenas dentro dos projetos. Mais para isso devemos ativar o ambiente virtual(env). Para criar o ambiente virtual deve fazer o seguinte:
 Ao criar a pasta do Projeto, então abra o Terminal do VScode ou qualque outro e navegue até a pasta.
-- Ativando o Virtual env
-```bash
-venv\Scripts\Activate.ps1
-````
-![Baixando Python](/imagens/ativando%20virtual%20env.png)
+- Ativando o Virtual env.
 
 ```bash
-python --version
+venv\Scripts\Activate.ps1
 ```
-## Comandos
+![Baixando Python](/imagens/ativando%20virtual%20env.png)
+
+- Se caso você receber um erro Parecido como este: env\Scripts\Activate.ps1 : O arquivo C:\Users\mb_la\OneDrive\Área de Trabalho\Curso_Udemy\venv\Scripts\Activate.ps1 não pode ser carregado porque a 
+execução de scripts foi desabilitada neste sistema. Para obter mais informações, consulte about_Execution_Policies em 
+https://go.microsoft.com/fwlink/?LinkID=135170.
+No linha:1 caractere:1
++ venv\Scripts\Activate.ps1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ErrodeSegurança: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccessab
+##Comandos
 - pip install selenium
 
 - pip show selenium
