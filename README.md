@@ -40,11 +40,10 @@ Para Iniciar um projeto de automação de teste usando a ferramenta selenium_web
 Para Verificar se o Python foi realmente instalado então podemos inserir o seguinte comando:
 
 ```bash
-python --version
+- python --version
 
-```bash	
-pip install selenium
 
-```bash	
-pip show selenium
+- pip install selenium
+
+- pip show selenium
 
