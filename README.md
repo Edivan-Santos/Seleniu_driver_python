@@ -10,16 +10,17 @@ Mini Curso com Selenium_webdriver com Python
 
 ## Instalações
 
-Descreva como instalar o projeto e suas dependências. Você pode incluir comandos de terminal ou links para documentação adicional.
+Para Iniciar um projeto de automação de teste usando a ferramenta selenium_webdriver com python, é preciso instalar algumas dependências e ferramentas.
+
+## Lista de Itens
+- Python 3.7 ou superior [python](https://www.python.org/)
+- Selenium_webdriver
+- IDE ( Vscode/Pycharm)  ou de sua preferência
+
 
 Instalação da Linguagem de Programação PYTHON em sua Máquina
 
 
-
-Exemplo:
-
 Exemplo:
 ```bash
 pip install nome_do_pacote
-
-pip install selenium
