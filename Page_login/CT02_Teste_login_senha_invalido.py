@@ -35,11 +35,16 @@ assert verificação_mensagem_erro.text== mensagem_esperada, f"falhou!!! a mensa
 print('Passou: A mensagem de erro esperada foi exibida corretamente.')
 
 #verificando se o Usuario logou com as credencias invalidas
-try:
-    usuario_logado = driver.find_element(By.CLASS_NAME, 'app_logo')
-    print('Elemento está presente na tela.')
-except NoSuchElementException:
-    print('Usuário não está logado')
+def verificar_usuario_logado(driver):
+    
+    try:
+        driver.find_element(By.CLASS_NAME, 'app_logo')
+        print('Elemento está presente na tela.')
+       
+    except NoSuchElementException:
+        print('Usuário não está logado')
+        
+verificar_usuario_logado(driver)
 
 
 
