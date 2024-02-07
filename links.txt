@@ -1,0 +1,9 @@
+https://www.saucedemo.com/v1/
+
+Para atualizar o PIP :
+python.exe -m pip install --upgrade pip
+
+Para atualizar seleniumDriver_manager
+pip install webdriver-manager -U
+
+
