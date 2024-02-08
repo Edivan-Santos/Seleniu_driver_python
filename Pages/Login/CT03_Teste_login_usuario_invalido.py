@@ -4,6 +4,7 @@ from webdriver_manager.chrome   import ChromeDriverManager
 from selenium.webdriver.common.by   import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.common.exceptions import NoSuchElementException
 
 # criando o servidor do chrome e instacinado na variavel driver
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
@@ -24,14 +25,24 @@ driver.find_element(By.CSS_SELECTOR,'input#password[placeholder=Password]').send
 driver.find_element(By.ID, 'login-button').click()
 
 # verificar se a mensagem de aviso apareceu para o usuario
-verificação_mensagem_erro = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="login_button_container"]/div/form/h3')))
+verificação_mensagem_erro = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, '//*[@id="login_button_container"]/div/form/h3'))) 
 
-mensagem_esperada = 'Epic sadface: Username and password do not match any user in this sservice'
+mensagem_esperada = 'Epic sadface: Username and password do not match any user in this service'
 assert verificação_mensagem_erro.text== mensagem_esperada, f"falhou!!! a mensagem esperada é'{mensagem_esperada}"
 
 
 # Impressão de feedback claro
 print('Passou: A mensagem de erro esperada foi exibida corretamente.')
 
+def verificar_usuario_logado(driver):
+    
+    try:
+        driver.find_element(By.CLASS_NAME, 'app_logo')
+        print('Elemento está presente na tela.')
+       
+    except NoSuchElementException:
+        print('Usuário não está logado')
+        
+verificar_usuario_logado(driver)
 # Encerrando o WebDriver
 driver.quit()
